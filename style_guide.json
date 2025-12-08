@@ -1,0 +1,104 @@
+{
+  "theme": {
+    "colors": {
+      "primary": {
+        "DEFAULT": "#0057D9",
+        "light": "#4E8FFF",
+        "dark": "#003F9E"
+      },
+      "secondary": {
+        "DEFAULT": "#FF9F1C",
+        "light": "#FFB64B",
+        "dark": "#CC7F16"
+      },
+      "neutral": {
+        "black": "#000000",
+        "darkGray": "#333333",
+        "gray": "#7A7A7A",
+        "lightGray": "#E0E0E0",
+        "white": "#FFFFFF"
+      },
+      "feedback": {
+        "success": "#28A745",
+        "error": "#DC3545",
+        "warning": "#FFC107",
+        "info": "#17A2B8"
+      }
+    },
+    "fontFamily": {
+      "heading": ["Poppins", "sans-serif"],
+      "body": ["Roboto", "sans-serif"],
+      "mono": ["Fira Code", "monospace"]
+    },
+    "fontSize": {
+      "xs": "0.75rem",
+      "sm": "0.875rem",
+      "base": "1rem",
+      "lg": "1.125rem",
+      "xl": "1.5rem",
+      "2xl": "2rem"
+    },
+    "fontWeight": {
+      "light": 300,
+      "regular": 400,
+      "medium": 500,
+      "bold": 700
+    },
+    "lineHeight": {
+      "tight": "1.1",
+      "normal": "1.5",
+      "loose": "1.75"
+    },
+    "spacing": {
+      "0": "0px",
+      "1": "0.25rem",
+      "2": "0.5rem",
+      "4": "1rem",
+      "6": "1.5rem",
+      "8": "2rem",
+      "12": "3rem"
+    },
+    "borderRadius": {
+      "none": "0px",
+      "sm": "4px",
+      "md": "8px",
+      "lg": "16px",
+      "full": "9999px"
+    },
+    "screens": {
+      "xs": "480px",
+      "sm": "640px",
+      "md": "768px",
+      "lg": "1024px",
+      "xl": "1280px",
+      "2xl": "1536px"
+    },
+    "container": {
+      "center": true,
+      "padding": "1rem"
+    },
+    "boxShadow": {
+      "sm": "0 1px 2px rgba(0, 0, 0, 0.05)",
+      "md": "0 2px 8px rgba(0, 0, 0, 0.1)",
+      "lg": "0 8px 20px rgba(0, 0, 0, 0.12)"
+    }
+  },
+  "components": {
+    "button": {
+      "base": "px-5 py-3 rounded-md font-medium transition",
+      "primary": "bg-primary text-white hover:bg-primary-dark",
+      "secondary": "bg-secondary text-black hover:bg-secondary-dark",
+      "disabled": "opacity-50 cursor-not-allowed"
+    },
+    "card": {
+      "base": "p-6 bg-white rounded-lg shadow-md"
+    },
+    "input": {
+      "base": "px-4 py-3 border border-neutral-lightGray rounded-md focus:outline-none focus:border-primary"
+    }
+  },
+  "accessibility": {
+    "focusOutline": "focus-visible:outline focus-visible:outline-2 focus-visible:outline-primary",
+    "contrast": "WCAG AA"
+  }
+}

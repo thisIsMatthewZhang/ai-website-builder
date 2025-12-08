@@ -1,0 +1,93 @@
+{
+  "page": {
+    "path": "/",
+    "layout": {
+      "type": "vertical", 
+      "sections": [
+        {
+          "id": "header",
+          "role": "navigation",
+          "position": "top",
+          "maxWidth": "container",
+          "content": [
+            {
+              "type": "logo"
+            },
+            {
+              "type": "menu",
+              "orientation": "horizontal"
+            },
+            {
+              "type": "button",
+              "variant": "primary",
+              "label": "Call to Action"
+            }
+          ],
+          "responsive": {
+            "mobile": {
+              "menu": "hamburger",
+              "order": ["logo", "hamburger"]
+            },
+            "desktop": {
+              "menu": "expanded",
+              "order": ["logo", "menu", "button"]
+            }
+          }
+        },
+        {
+          "id": "hero",
+          "role": "feature",
+          "variant": "full-width",
+          "alignment": "center",
+          "content": [
+            { "type": "heading", "level": 1 },
+            { "type": "text" },
+            { "type": "button", "variant": "primary" }
+          ]
+        },
+        {
+          "id": "main",
+          "role": "primary-content",
+          "columns": 1,
+          "contentBlocks": [
+            {
+              "type": "section",
+              "headingLevel": 2,
+              "content": ["text", "image", "button"]
+            },
+            {
+              "type": "section",
+              "headingLevel": 2,
+              "content": ["text"]
+            }
+          ],
+          "responsive": {
+            "md+": { "columns": 2 },
+            "lg+": { "columns": 3 }
+          }
+        },
+        {
+          "id": "cta",
+          "role": "call-to-action",
+          "alignment": "center",
+          "content": [
+            { "type": "heading", "level": 2 },
+            { "type": "text" },
+            { "type": "button", "variant": "secondary" }
+          ]
+        },
+        {
+          "id": "footer",
+          "role": "footer",
+          "position": "bottom",
+          "content": [
+            { "type": "text", "subtype": "copyright" },
+            { "type": "links" },
+            { "type": "social-media" }
+          ],
+          "alignment": "center"
+        }
+      ]
+    }
+  }
+}
